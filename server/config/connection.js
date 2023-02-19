@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/cloud_db', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://jelena:Password99@cluster0.scfuqks.mongodb.net/BookSearch?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
